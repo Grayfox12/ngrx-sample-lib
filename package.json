@@ -1,0 +1,38 @@
+{
+  "name": "common-library",
+  "version": "1.0.4",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.900.3",
+    "@angular-devkit/build-ng-packagr": "^0.900.3",
+    "@angular/animations": "~9.0.2",
+    "@angular/cdk": "~9.1.0",
+    "@angular/cli": "~9.0.2",
+    "@angular/common": "~9.0.2",
+    "@angular/compiler": "~9.0.2",
+    "@angular/compiler-cli": "~9.0.2",
+    "@angular/core": "~9.0.2",
+    "@angular/language-service": "~9.0.2",
+    "@angular/platform-browser": "~9.0.2",
+    "@angular/platform-browser-dynamic": "~9.0.2",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/effects": "^9.1.0",
+    "@ngrx/store": "^9.1.0",
+    "@types/node": "^12.11.1",
+    "downloadjs": "^1.4.7",
+    "ng-packagr": "^5.7.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "~6.5.3",
+    "tslint": "~5.15.0",
+    "typescript": "~3.6.4",
+    "zone.js": "~0.10.2"
+  },
+  "dependencies": {
+    "shelljs": "0.8.3",
+    "tslib": "^1.10.0"
+  }
+}

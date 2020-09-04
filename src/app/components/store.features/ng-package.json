@@ -1,0 +1,15 @@
+{
+    "$schema": "ng-packagr/ng-package.schema.json",
+    "lib": {
+        "entryFile": "public_api.ts",
+        "umdModuleIds": {
+            "@ngrx/store": "@ngrx/store",
+            "@ngrx/effects": "@ngrx/effects",
+            "@ngrx/store/src/store_module": "@ngrx/store",
+            "@ngrx/store/src/runtime_checks" : "@ngrx/store",
+            "@ngrx/store/src/tokens": "@ngrx/store",
+            "@ngrx/effects/src/tokens": "@ngrx/effects",
+            "@ngrx/effects/src/effects_module": "@ngrx/effects"
+        }
+    }
+  }
